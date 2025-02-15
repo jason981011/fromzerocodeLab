@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fromzerocodeLab/</loc>
+    <loc>https://jason981011.github.io/fromzerocodeLab/</loc>
     <lastmod>2025-02-15T21:30:14+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fromzerocodeLab/posts/my-first-post/</loc>
+    <loc>https://jason981011.github.io/fromzerocodeLab/posts/my-first-post/</loc>
     <lastmod>2025-02-15T21:30:14+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fromzerocodeLab/posts/</loc>
+    <loc>https://jason981011.github.io/fromzerocodeLab/posts/</loc>
     <lastmod>2025-02-15T21:30:14+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fromzerocodeLab/categories/</loc>
+    <loc>https://jason981011.github.io/fromzerocodeLab/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/fromzerocodeLab/tags/</loc>
+    <loc>https://jason981011.github.io/fromzerocodeLab/tags/</loc>
   </url>
 </urlset>
