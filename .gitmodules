@@ -1,3 +1,7 @@
 [submodule "themes/mainroad"]
 	path = themes/mainroad
 	url = https://github.com/Vimux/Mainroad.git
+
+[submodule "fromzerocodeLab"]
+    path = fromzerocodeLab
+    url = https://github.com/jason981011/fromzerocodeLab.git
