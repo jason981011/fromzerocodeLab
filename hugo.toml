@@ -1,0 +1,4 @@
+baseURL = "https://jason981011.github.io/fromzerocodeLab/"
+theme = "mainroad"
+languageCode = "zh-tw"
+title = "fromzerocodeLab"
