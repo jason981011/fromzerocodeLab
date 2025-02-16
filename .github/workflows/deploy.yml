@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          submodules: true
 
       - name: Ensure Git is installed
         run: sudo apt-get update && sudo apt-get install -y git
@@ -37,8 +39,3 @@ jobs:
             git push --force "https://${{ secrets.ACTIONS_DEPLOY_KE }}@github.com/jason981011/fromzerocodeLab.git" HEAD:gh-pages
           else
             echo "No changes to commit"
-          fi
-
-
-
-
