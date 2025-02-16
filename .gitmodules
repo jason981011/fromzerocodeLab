@@ -4,3 +4,6 @@
 [submodule "themes/soho"]
     path = themes/soho
     url = https://github.com/alex-shpak/hugo-book.git
+[submodule "fromzerocodeLab"]
+    path = fromzerocodeLab
+    url = https://github.com/jason981011/fromzerocodeLab.git
