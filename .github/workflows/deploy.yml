@@ -13,6 +13,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Ensure Git is installed
+        run: sudo apt-get update && sudo apt-get install -y git
+
+      - name: Verify Git version
+        run: git --version
+
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -22,7 +28,13 @@ jobs:
         run: hugo --minify
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "Deploy to GitHub Pages"
+            git push --force "https://${{ secrets.ACTIONS_DEPLOY_KE }}@github.com/jason981011/fromzerocodeLab.git" HEAD:gh-pages
+          else
+            echo "No changes to commit"
+          fi
