@@ -1,12 +1,6 @@
 [submodule "themes/mainroad"]
-	path = themes/mainroad
-	url = https://github.com/Vimux/Mainroad.git
-<<<<<<< HEAD
-[submodule "themes/mainroad"]
     path = themes/mainroad
     url = https://github.com/Vimux/Mainroad.git
-=======
 [submodule "themes/soho"]
     path = themes/soho
     url = https://github.com/alex-shpak/hugo-book.git
->>>>>>> main
