@@ -16,6 +16,12 @@ jobs:
       - name: Verify Git version
         run: git --version
 
+      - name: Debug environment
+        run: |
+          echo "PATH: $PATH"
+          which git
+          git --version
+
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
