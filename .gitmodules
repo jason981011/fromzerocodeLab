@@ -7,3 +7,6 @@
 [submodule "fromzerocodeLab"]
     path = fromzerocodeLab
     url = https://github.com/jason981011/fromzerocodeLab.git
+[submodule "themes/book"]
+	path = themes/book
+	url = https://github.com/alex-shpak/hugo-book
